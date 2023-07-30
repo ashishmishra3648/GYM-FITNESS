@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Yatra+One&display=swap');
+
+      body {
+        margin: 0px; /*CSS Reset*/
+        padding: 0px; /*CSS Reset*/
+        background-image: url(img4.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Merienda', cursive;
+      }
+      .left {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 24px;
+        color: wheat;
+        /* border: 2px solid red; */
+      }
+      .left img{
+        width: 75px;
+      }
+      .mid {
+        display: block;
+        width: 50%;
+        margin: 12px auto;
+        top: 20px;
+        
+        color: wheat;
+        /* border: 2px solid yellow; */
+        list-style: none;
+    }
+   
+    .right {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 24px;
+        color: wheat;
+        /* border: 2px solid blue; */
+        
+    }
+    .navbar{
+        display: inline-block;
+        
+
+
+}
+.navbar li{
+        display: inline-block;
+        font-size: 17px;
+
+    }
+    .navbar li a{
+        color: white;
+        padding: 20px 15px;
+        text-decoration: none;
+
+    }
+    .navbar li a:hover{
+        color: yellow;
+        text-decoration: underline;
+
+    }
+    .btn{
+        border: 2px solid red;
+        color: red;
+        background: black;
+        border-radius: 6px;
+        padding: 4px 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: yellow;
+        background:black;
+        border: 2px solid yellow;
+    }
+    .container{color: aliceblue;
+        /* border: 2px solid wheat; */
+        width: 600px;
+    padding: 9px 26px;
+    /* margin: 70px; */
+    border-radius: 15px;
+    margin-top: 163px;
+    margin-left: 69px;
+    }
+    .group input{    display: block;
+    border: 2px solid yellow;
+    text-align: center;
+    width: 400px;
+    padding: 4px 3px;
+    margin: 11px auto;
+    border-radius: 15px;
+    font-size: 15px;
+    background: black;
+    color: yellow;
+    font-family: 'Merienda', cursive;
+    
+    }
+    .container h1{
+        text-align: center;
+        color: yellow;
+    }
+    .container button{
+        display: block;
+        width: 50.5%;
+        margin: auto;
+        margin-top:5px ;
+    }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="img2.png" alt="">
+      </div>
+      <div class="mid" id="center">
+        <ul class="navbar">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Instagram </button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+       <h1><u>Join the best GYM of India !</u></h1>
+       <form action="noaction.php">
+        <div class="group">
+           <div>
+            <input type="text" name="" placeholder="Enter Your Name">
+           </div>
+           <div>
+            <input type="text" name="" placeholder="Enter Your Age">
+           </div>
+           <div>
+            <input type="text" name="" placeholder="Enter Your Gender">
+           </div>
+           <div>
+            <input type="text" name="" placeholder="Enter Your City">
+           </div>
+           <div>
+            <input type="text" name="" placeholder="Enter Your Phone Number">
+           </div>
+           <div>
+            <input type="text" name="" placeholder="Enter Your Email">
+           </div>
+           
+        </div>
+    </form>
+    <button class="btn">Submit </button>
+
+    </div>
+  </body>
+</html>
